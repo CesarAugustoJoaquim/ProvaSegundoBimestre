@@ -34,7 +34,7 @@ namespace API.Controllers
         }
 
         // GET: api/usuario/login
-        [HttpGet]
+        [HttpPost]
         [Route("login")]
         public IActionResult Login([FromBody] Usuario usuario)
         {
